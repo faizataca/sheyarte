@@ -127,17 +127,7 @@ export default function ArtPortfolio() {
               <h2 className="font-serif text-4xl text-gray-800 mb-6">About Me</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  11 Highschool student from Indonesia, passionate about art and creativity. I find inspiration in the
-                  world around me, capturing the essence of life through my artwork.
-                </p>
-                <p>
-                  I believe that art is a powerful medium for self-expression and connection. My journey as an artist
-                  has been a path of discovery, where I explore different styles and techniques to convey my thoughts
-                  and emotions.
-                </p>
-                <p>
-                  Through sketches, paintings, and digital illustrations, I aim to create art that resonates with the
-                  soul and brings a sense of peace and wonder to those who view it.
+                  Ruth Serlinawati, known as Shey Arte, is a passionate artist from Indonesia. With a love for creativity and self-expression, Shey has been creating art that reflects her unique perspective on life.
                 </p>
               </div>
             </div>
@@ -150,7 +140,7 @@ export default function ArtPortfolio() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-serif text-4xl text-gray-800 text-center mb-12">Arte</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {Array.from({ length: 8 }).map((_, index) => (
+            {Array.from({ length: 16 }).map((_, index) => (
               <div key={index} className="group cursor-pointer">
                 <Image
                   src={`/images/s${index + 1}.jpg`}
